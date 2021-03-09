@@ -86,9 +86,9 @@
                     $mail->Host = "smtp.gmail.com";
                     $mail->Port = 465; // or 587
                     $mail->IsHTML(true);
-                    $mail->Username = "apc.l3ummto@gmail.com";
-                    $mail->Password = "apconline";
-                    $mail->SetFrom("apc.l3ummto@gmail.com");
+                    $mail->Username = "";
+                    $mail->Password = "";
+                    $mail->SetFrom("");
                     $mail->AddAddress($Email);
                     $mail->Subject = "Test";
                     $mail->Body = "
